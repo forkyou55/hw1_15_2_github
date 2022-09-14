@@ -14,6 +14,6 @@ public class ExampleTest {
 
     @Test
     void exampleTest1() {
-        Assertions.assertTrue(new Random().nextInt()>148);
+        Assertions.assertTrue(666>=228);
     }
 }
