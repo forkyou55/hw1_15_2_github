@@ -3,15 +3,17 @@ package youfork;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.Random;
+
 public class ExampleTest {
 
     @Test
     void exampleTest0() {
-        Assertions.assertTrue(228 <= 666);
+        Assertions.assertTrue(new Random().nextInt() < 666);
     }
 
     @Test
     void exampleTest1() {
-        Assertions.assertTrue(148<=280);
+        Assertions.assertTrue(new Random().nextInt()>280);
     }
 }
