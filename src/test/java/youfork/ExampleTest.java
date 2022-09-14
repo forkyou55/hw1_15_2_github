@@ -7,11 +7,11 @@ public class ExampleTest {
 
     @Test
     void exampleTest0() {
-        Assertions.assertTrue(777 >= 666);
+        Assertions.assertTrue(798 >= 666);
     }
 
     @Test
     void exampleTest1() {
-        Assertions.assertTrue(666>=280);
+        Assertions.assertTrue(666>=228);
     }
 }
