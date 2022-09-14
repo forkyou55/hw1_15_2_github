@@ -7,7 +7,7 @@ public class ExampleTest {
 
     @Test
     void exampleTest0() {
-        Assertions.assertTrue(282 <= 666);
+        Assertions.assertTrue(228 <= 666);
     }
 
     @Test
